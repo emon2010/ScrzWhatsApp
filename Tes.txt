@@ -1,4 +1,14 @@
 
+
+if sCrZ.isPackageInstalled('com.nochqxpucsbldqqx' )
+then
+--sCrZ.alert("➖➖➖➖➖➖➖➖➖➖➖➖➖ \n GameGuardian ModScrz Installed ✔\n➖➖➖➖➖➖➖➖➖➖➖➖➖  ")
+pubgm_stats = "\226\156\133 GGMod Scrz Installed"
+else
+sCrZ.alert("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖ \n U Need Install GameGuardian ModScrz ❗\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖   ")
+os.exit()
+end
+
 gg.alert("Dasar WaWan  NoOoob\nSama TMON jugaa NoooooBbbbb")
 
 function WH15()
