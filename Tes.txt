@@ -1,8 +1,8 @@
 
-gg.alert("Dasar WaWan  NoOoob")
+gg.alert("Dasar WaWan  NoOoob\nSama TMON jugaa NoooooBbbbb")
 
-gg.setVisible(false)
 function WH14()
+gg.setVisible(false)
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("4,140D;4.7408166e21;5.6896623e-29;4.7961574e21;3.7615819e-37;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -50,6 +50,7 @@ WH14()
 
 
 function A86()
+gg.setVisible(false)
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("8200;16;13;14:57", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
