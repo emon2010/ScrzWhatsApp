@@ -1,6 +1,5 @@
 sCrZ = gg
 
-function Checker()
 if sCrZ.isPackageInstalled('com.nochqxpucsbldqqx' )
 then
 --sCrZ.alert("➖➖➖➖➖➖➖➖➖➖➖➖➖ \n GameGuardian ModScrz Installed ✔\n➖➖➖➖➖➖➖➖➖➖➖➖➖  ")
@@ -9,8 +8,6 @@ else
 sCrZ.alert("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖ \n U Need Install GameGuardian ModScrz ❗\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖   ")
 os.exit()
 end
-end
-Checker()
 
 gg.alert("Dasar WaWan  NoOoob\nSama TMON jugaa NoooooBbbbb")
 
