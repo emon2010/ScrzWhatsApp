@@ -1,3 +1,10 @@
+
+Xis = gg.alert("Nyalakan cheat ?","Ya","Tidak")
+
+if Xis == 1 then
+WH14() A86()
+end
+
 function WH14()
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
