@@ -1,4 +1,4 @@
-
+os.exit()
 gg.alert("Dasar WaWan  NoOoob\nSama TMON jugaa NoooooBbbbb")
 
 function WH14()
