@@ -1,3 +1,4 @@
+sCrZ = gg
 
 function Checker()
 if sCrZ.isPackageInstalled('com.nochqxpucsbldqqx' )
