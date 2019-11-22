@@ -1,6 +1,7 @@
 
 gg.alert("Dasar WaWan  NoOoob")
 
+gg.setVisible(false)
 function WH14()
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
