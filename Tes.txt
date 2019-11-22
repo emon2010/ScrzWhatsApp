@@ -1,10 +1,5 @@
 
-Xis = gg.alert("Nyalakan cheat ?","Ya","Tidak")
-if Xis ~= nil then end
-if Xis == 1 then
-WH14() 
-A86()
-end
+gg.alert("Dasar WaWan  NoOoob")
 
 function WH14()
   gg.clearResults()
