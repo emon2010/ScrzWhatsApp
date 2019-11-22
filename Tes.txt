@@ -45,6 +45,8 @@ function WH14()
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.toast("Wallhack activated!")
 end
+WH14()
+
 
 function A86()
   gg.clearResults()
@@ -56,3 +58,4 @@ function A86()
   gg.clearResults()
   gg.toast("Colour Yellow activated!")
 end
+A86()
