@@ -1,8 +1,9 @@
 
 Xis = gg.alert("Nyalakan cheat ?","Ya","Tidak")
-
+if Xis ~= nil then end
 if Xis == 1 then
-WH14() A86()
+WH14() 
+A86()
 end
 
 function WH14()
