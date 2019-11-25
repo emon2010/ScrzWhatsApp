@@ -16,7 +16,7 @@ sCrZ.alert("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖ \n U Need Install Ga
 os.exit()
 end
 
-Expiredddd = os.date("21 %B %Y ⚠")
+Expiredddd = os.date("26 %B %Y ⚠")
 
 on =    "  ⚙️ [ ᴏɴ ]"
 off = "  ⚙️ [ ᴏꜰꜰ ]"
