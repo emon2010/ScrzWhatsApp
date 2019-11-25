@@ -1,0 +1,926 @@
+
+Expiredddd = os.date("26 %B %Y ")
+
+
+--sCrZ.setVisible(false)
+--ProgressBar = "";for x = 1,15,1 do sCrZ.sleep(500) ProgressBar = ProgressBar:gsub("","▓",1);sCrZ.toast(ProgressBar) end sCrZ.toast("Loaded") 
+--mbym = 1
+sCrZ = gg
+
+
+
+
+
+if sCrZ.isPackageInstalled('com.nochqxpucsbldqqx' )
+then
+--sCrZ.alert("➖➖➖➖➖➖➖➖➖➖➖➖➖ \n GameGuardian ModScrz Installed ✔\n➖➖➖➖➖➖➖➖➖➖➖➖➖  ")
+pubgm_stats = "\226\156\133 GGMod Scrz Installed"
+else
+sCrZ.alert("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖ \n U Need Install GameGuardian ModScrz ❗\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖   ")
+os.exit()
+end
+
+
+
+on =    "  ⚙️ [ ᴏɴ ]"
+off = "  ⚙️ [ ᴏꜰꜰ ]"
+test = off
+
+local info = sCrZ.getTargetInfo()
+local c = os.date('🔸ᵀᵃⁿᵍᵍᵃˡ :   %A, %d %B %Y')
+--ðŸ“› ðŸŽ®Script By : @Nandoscrz ðŸ“›\n\nPackage Name : "..info.packageName.."\nCode Version : "..info.versionCode.."\nGame Version : "..info.versionName.."\nGame uid : " ..info.uid.."\n\n"..c.."\n----------------------------------------------------------
+
+HOME = 1
+
+function HOME()
+HA = sCrZ.choice({
+"  ┏◖ɢᴀᴍᴇ◗◖ᴛʀᴀɪɴɪɴɢ◗\n  ┗🔘 ᴡᴀʟʟʜᴀᴄᴋ & ᴄᴏʟᴏᴜʀ",
+"  ┏◖ʟᴏʙʙʏ◗◖ᴏɴᴄᴇ◗\n  ┗📛 ʟᴏʙʙʏ ʜᴀᴄᴋ",
+"  ┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n  ┗🔒 ᴡᴇᴀᴘᴏɴ ʜᴀᴄᴋ",
+"  ┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n  ┗👾 ɢᴀᴍᴇ ʜᴀᴄᴋ",
+"  ┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n  ┗🌃 ᴠɪꜱᴜᴀʟ ʜᴀᴄᴋ",
+"  ┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n  ┗📡 ᴀɴᴛᴇna",
+test.." • OʙʙʀᴇɴᴀᴍᴇR  ",
+"◄⎋EXIT►  "},nil,"🔸ˢᶜʳᶦᵖᵗ ᴮʸ : @ᴺᵃⁿᵈᵒˢᶜʳᶻ 🔸\n\n  ⚠ ꜱᴄʀɪᴘᴛ ᴇxᴘɪʀᴇᴅ : "..Expiredddd.."\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
+  if HA == 1 then Lob() end
+  if HA == 2 then Lob2()  end
+  if HA == 3 then weaphack() end
+  if HA == 4 then gamehack() end
+  if HA == 5 then viss() end
+  if HA == 6 then AntenasCrZ() end
+  if HA == 7 then
+            if test == off
+                then
+                       test = on
+                       testFunc(true)
+                   else
+                       test = off
+                       testFunc(false)
+                end
+                
+  end
+  if HA == 8 then Exit() end
+HambaAllah=-1
+end
+
+function testFunc(t)
+if t == true
+  then
+  renamer()
+    sCrZ.toast("On")
+  else
+  renamerof()
+    sCrZ.toast("Off")
+  end
+end
+
+function renamer()
+os.rename("/sdcard/Android/obb/com.tencent.ig", "/sdcard/Android/obb/com.tencent.igFuck")
+os.rename("/storage/emulated/0/Android/obb/com.tencent.ig", "/storage/emulated/0/Android/obb/com.tencent.igFuck")
+end
+
+function renamerof()
+os.rename("/sdcard/Android/obb/com.tencent.igFuck", "/sdcard/Android/obb/com.tencent.ig")
+os.rename("/storage/emulated/0/Android/obb/com.tencent.igFuck", "/storage/emulated/0/Android/obb/com.tencent.ig")
+end
+
+function Lob()
+--sCrZ.alert("ID: Jangan gunakan -MagicBullet- Kalo lo mau pake Headshot!\n\nEN: Don't use -MagicBullet- if you want to use Headshot!\n\nJP: ヘッドショットを使用する場合は、MagicBulletを使用しないでください！\n\nKR: 헤드 샷을 사용하려면 Magic Bullet을 사용하지 마십시오!\n\nRU: Не используйте Magic Bullet, если вы хотите использовать Headshot!\n\nSA: لا تستخدم Magic Bullet إذا كنت تريد استخدام Headshot!")
+HA2 = sCrZ.multiChoice({
+  "┏◖ɢᴀᴍᴇ◗◖ᴛʀᴀɪɴɪɴɢ◗\n┗💈ᴡᴀʟʟʜᴀᴄᴋ ꜱᴅ 625",
+  "┏◖ɢᴀᴍᴇ◗◖ᴛʀᴀɪɴɪɴɢ◗\n┗💈ᴡᴀʟʟʜᴀᴄᴋ ꜱᴅ 710",
+  "┏◖ɢᴀᴍᴇ◗◖ᴛʀᴀɪɴɪɴɢ◗\n┗💈ᴡᴀʟʟʜᴀᴄᴋ ꜱᴅ 835",
+  "┏◖ɢᴀᴍᴇ◗◖ᴛʀᴀɪɴɪɴɢ◗\n┗🎨 ᴄ 625 ɢʀᴇᴇɴ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴛʀᴀɪɴɪɴɢ◗\n┗🎨 ᴄ 625 ʀᴇᴅ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴛʀᴀɪɴɪɴɢ◗\n┗🎨 ᴄ 625 ʏᴇʟʟᴏᴡ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴛʀᴀɪɴɪɴɢ◗\n┗🎨 ᴄ 710 ʙʟᴜᴇ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴛʀᴀɪɴɪɴɢ◗\n┗🎨 ᴄ 710 ɢʀᴇᴇɴ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴛʀᴀɪɴɪɴɢ◗\n┗🎨 ᴄ 710 ʏᴇʟʟᴏᴡ",
+  "⎋ᴮᴬᶜᴷ"},nil,"🔸Wᴀʟʟʜᴀᴄᴋ & Cᴏʟᴏᴜʀ Mᴇɴᴜ🔸")
+if HA2 == nil then else
+if HA2[1] == true then wh625() end
+if HA2[2] == true then wh710() end
+if HA2[3] == true then wh835() end
+if HA2[4] == true then c625g() end
+if HA2[5] == true then c625r() end
+if HA2[6] == true then c625y() end
+if HA2[7] == true then c710b() end
+if HA2[8] == true then c710g() end
+if HA2[9] == true then c710y() end
+if HA2[10] == true then HOME() end
+end
+HambaAllah = -1
+end
+
+function Lob2()
+--sCrZ.alert("ID: Jangan gunakan -MagicBullet- Kalo lo mau pake Headshot!\n\nEN: Don't use -MagicBullet- if you want to use Headshot!\n\nJP: ヘッドショットを使用する場合は、MagicBulletを使用しないでください！\n\nKR: 헤드 샷을 사용하려면 Magic Bullet을 사용하지 마십시오!\n\nRU: Не используйте Magic Bullet, если вы хотите использовать Headshot!\n\nSA: لا تستخدم Magic Bullet إذا كنت تريد استخدام Headshot!")
+HA2 = sCrZ.multiChoice({
+ "┏◖ʟᴏʙʙʏ◗◖ᴏɴᴄᴇ◗\n┗🎯 ᴀɪᴍʙᴏᴛ ꜱᴜᴘᴇʀ 100ᴍ ",
+"┏◖ʟᴏʙʙʏ◗◖ᴏɴᴄᴇ◗\n┗🔱 ᴀᴜᴛᴏ ʜᴇᴀᴅꜱʜᴏᴛ",
+"┏◖ʟᴏʙʙʏ◗◖ᴏɴᴄᴇ◗\n┗ ♻ ɴᴇᴡ ʟᴇꜱꜱ ʀᴇᴄᴏɪʟ",
+"┏◖ʟᴏʙʙʏ◗◖ᴏɴᴄᴇ◗\n┗ ♻ ɴᴇᴡ ɴᴏ ʀᴇᴄᴏɪʟ ",
+"┏◖ʟᴏʙʙʏ◗◖ᴏɴᴄᴇ◗\n┗📡 ᴀɴᴛᴇɴᴀ ᴘʟᴀʏᴇʀ",
+"┏◖ʟᴏʙʙʏ◗◖ᴏɴᴄᴇ◗\n┗➕ ꜱᴍᴀʟʟ ᴄʀᴏꜱꜱʜᴀɪʀ",
+  "⎋ᴮᴬᶜᴷ"},nil,"🔸ᴸᵒᵇᵇʸ ᴴᵃᶜᵏMᴇɴᴜ🔸")
+if HA2 == nil then else
+if HA2[1] == true then a100m() end
+if HA2[2] == true then hs() end
+if HA2[3] == true then lr() end
+if HA2[4] == true then nr() end
+if HA2[5] == true then atn() end
+if HA2[6] == true then sc() end
+if HA2[7] == true then HOME() end
+end
+HambaAllah = -1
+end
+
+function AntenasCrZ()
+--sCrZ.alert("ID: Jangan gunakan -MagicBullet- Kalo lo mau pake Headshot!\n\nEN: Don't use -MagicBullet- if you want to use Headshot!\n\nJP: ヘッドショットを使用する場合は、MagicBulletを使用しないでください！\n\nKR: 헤드 샷을 사용하려면 Magic Bullet을 사용하지 마십시오!\n\nRU: Не используйте Magic Bullet, если вы хотите использовать Headshot!\n\nSA: لا تستخدم Magic Bullet إذا كنت تريد استخدام Headshot!")
+HA2 = sCrZ.multiChoice({
+ "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 📡 ɴᴇᴡ ᴀɴᴛᴇɴᴀ ɢʜɪʟɪ",
+ "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ ⚠ ᴀɴᴛᴇɴᴀ ᴀᴍᴍᴏ 5.56ᴍᴍ",
+ "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 🎪 ᴀɴᴛᴇɴᴀ ɪᴛᴇᴍꜱ ʟᴇᴠᴇʟ 3",
+ "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 🔦 ᴀɴᴛᴇɴᴀ ᴍ416/ꜱᴄᴀʀ-ʟ",
+ "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ ⛽ ᴀɴᴛᴇɴᴀ ꜱᴛᴀɴᴅ",
+  "⎋ᴮᴬᶜᴷ"},nil,"🔸ᴬⁿᵗᵉⁿᵃMᴇɴᴜ🔸")
+if HA2 == nil then else
+if HA2[1] == true then agili() end
+if HA2[2] == true then aamo() end
+if HA2[3] == true then aitems() end
+if HA2[4] == true then am4() end
+if HA2[5] == true then astan() end
+if HA2[6] == true then HOME() end
+end
+HambaAllah = -1
+end
+
+function weaphack()
+--sCrZ.alert("ID: Jangan gunakan -MagicBullet- Kalo lo mau pake Headshot!\n\nEN: Don't use -MagicBullet- if you want to use Headshot!\n\nJP: ヘッドショットを使用する場合は、MagicBulletを使用しないでください！\n\nKR: 헤드 샷을 사용하려면 Magic Bullet을 사용하지 마십시오!\n\nRU: Не используйте Magic Bullet, если вы хотите использовать Headshot!\n\nSA: لا تستخدم Magic Bullet إذا كنت تريد استخدام Headshot!")
+HA2 = sCrZ.multiChoice({
+  "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 🎯 ᴀɪᴍʙᴏᴛ ᴜʟᴛʀᴀ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 🔒 ɴᴇᴡ ᴀɪᴍʟᴏᴄᴋ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 💟 ʜɪɢʜ ᴅᴀᴍᴀɢᴇ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ ⚡ ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 🔅 ɴᴏ ʀᴇᴄᴏɪʟ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 💉 ɴᴇᴡ ᴡᴀʟʟꜱʜᴏᴛ",
+  "⎋ᴮᴬᶜᴷ"},nil,"🔸ᵂᵉᵃᵖᵒⁿ ᴴᵃᶜᵏMᴇɴᴜ🔸")
+if HA2 == nil then else
+if HA2[1] == true then aimbotu() end
+if HA2[2] == true then aimlock() end
+if HA2[3] == true then hdamage() end
+if HA2[4] == true then mbullet() end
+if HA2[5] == true then norec() end
+if HA2[6] == true then walls() end
+if HA2[7] == true then HOME() end
+end
+HambaAllah = -1
+end
+
+function gamehack()
+--sCrZ.alert("ID: Jangan gunakan -MagicBullet- Kalo lo mau pake Headshot!\n\nEN: Don't use -MagicBullet- if you want to use Headshot!\n\nJP: ヘッドショットを使用する場合は、MagicBulletを使用しないでください！\n\nKR: 헤드 샷을 사용하려면 Magic Bullet을 사용하지 마십시오!\n\nRU: Не используйте Magic Bullet, если вы хотите использовать Headshot!\n\nSA: لا تستخدم Magic Bullet إذا كنت تريد استخدام Headshot!")
+HA2 = sCrZ.multiChoice({
+"┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 👙 ᴇꜱᴘ ᴘʟᴀʏᴇʀ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 🚙 ꜱᴘᴇᴇᴅ ᴀʟʟ ᴠᴇʜɪᴄʟᴇ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 🏃 ꜱᴘᴇᴇᴅ ᴋɴᴏᴄᴋ",
+  "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 🏃 Super speed".. ss,
+  "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 🏃 Super jump".. sj,
+  "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗ 🔎 ᴡɪᴅᴇ ᴠɪᴇᴡ",
+  "⎋ᴮᴬᶜᴷ"},nil,"🔸ᴳᵃᵐᵉ ᴴᵃᶜᵏMᴇɴᴜ🔸")
+if HA2 == nil then else
+if HA2[1] == true then esp() end
+if HA2[2] == true then spall() end
+if HA2[3] == true then spknock() end
+if HA2[4] == true then vip5() end
+if HA2[5] == true then vip6() end
+if HA2[6] == true then wideF() end
+if HA2[7] == true then HOME() end
+end
+HambaAllah = -1
+end
+
+function wideF()
+HA = sCrZ.choice({
+  "     🔹ᵂᶦᵈᵉ ⱽᶦᵉʷ ³⁰%🔹",
+  "     🔹ᵂᶦᵈᵉ ⱽᶦᵉʷ ⁶⁰%🔹",
+  "     🔹ᵂᶦᵈᵉ ⱽᶦᵉʷ ⁹⁰%🔹",
+"◄⎋EXIT►  "},nil,"🔸ˢᶜʳᶦᵖᵗ ᴮʸ : @ᴺᵃⁿᵈᵒˢᶜʳᶻ 🔸\n\n🔸ᵂᶦᵈᵉ ⱽᶦᵉʷMᴇɴᴜ ")
+  if HA == 1 then w30() end
+  if HA == 2 then w60()  end
+  if HA == 3 then w90() end
+  if HA == 4 then gamehack() end
+HambaAllah=-1
+end
+
+function viss()
+HA = sCrZ.multiChoice({
+ "┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗🌇 ᴀᴜʀᴏʀᴀ ꜱᴋʏ ",
+"┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗🌆 ʙʟᴀᴄᴋ ꜱᴋʏ ",
+"┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗🌄 ꜰᴏɢ ʀᴇᴍᴏᴠᴇʀ ",
+"┏◖ɢᴀᴍᴇ◗◖ᴇᴠᴇʀʏ◗\n┗🎅 ꜱɴᴏᴡ ᴘᴇʀꜱᴘᴇᴄᴛɪᴠᴇ ɪɴ ᴍɪʀᴀᴍᴀʀ",
+"◄⎋EXIT►  "},nil,"🔸ˢᶜʳᶦᵖᵗ ᴮʸ : @ᴺᵃⁿᵈᵒˢᶜʳᶻ 🔸\n\n🔸ᴠɪꜱᴜᴀʟ ʜᴀᴄᴋ Mᴇɴᴜ ")
+ if HA == nil then else
+ if HA[1] == true then asky() end
+  if HA[2] == true then bsky()  end
+  if HA[3] == true then fgrem() end
+  if HA[4] == true then snw() end
+  if HA[5] == true then HOME() end
+  end
+HambaAllah=-1
+end
+
+
+
+function wh835()
+    gg.clearResults()
+    gg.setRanges(gg.REGION_BAD)
+    gg.searchNumber('5.1097599e21;2.0;1.6623071e-19::17', 16, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(30)
+    gg.editAll('120', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_BAD)
+    gg.searchNumber('-0.01000213623;2;-1;0;0.04000854492', 16, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(30)
+    gg.editAll('120', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_BAD)
+    gg.searchNumber('2.0;-1.0;0.0;1.0;-127.0::17', 16, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(30)
+    gg.editAll('120', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_BAD)
+    gg.searchNumber('2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200', 16, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(30)
+    gg.editAll('120', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.searchNumber('5.8013756e-42F;-5.5695588e-40F;2.0F::100', 16, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(30)
+    gg.editAll('120', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_BAD)
+    gg.searchNumber('7.1746481e-43;1.0842022e-19;94.015625;7.0776718e-15;2::', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(5)
+    gg.editAll('9999', gg.TYPE_FLOAT)
+    gg.toast('☬ Wallhack 835 ☬')
+  end
+
+function wh625()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("2", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(30)
+sCrZ.editAll("120", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("2", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(30)
+sCrZ.editAll("120", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Wallhack 625 ༒")
+end
+
+function wh710()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("3.9236357e-44;1.1202056e-19;3.7615819e-37;2.0;-1.0", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("2.0", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("100", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("4.9621809e21;7.0208711e-29;5.4049168e21;1.3312335e-43;1.3912565e-19;2.0;1.6623113e-19", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("2.0", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("100", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Wallhack 710 ༒")
+end
+
+function c625g()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("32768;-2134900726;32769;-2134900725;32770;-2134900724::", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("32769", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("4", sCrZ.TYPE_DWORD)
+sCrZ.clearResults()
+sCrZ.toast("༒ Color 625 Green ༒")
+end
+
+function c625r()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("112;8200;96;256::", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.refineNumber("8200", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.refineAddress("098")
+sCrZ.getResults(14)
+sCrZ.editAll("7", sCrZ.TYPE_DWORD)
+sCrZ.clearResults()
+sCrZ.toast("༒ Color 625 Red ༒")
+end
+
+function c625y()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("112;8200;96;256", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.refineNumber("8200", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(9999)
+sCrZ.editAll("6", sCrZ.TYPE_DWORD)
+sCrZ.clearResults()
+sCrZ.toast("༒ Color 625 Yellow ༒")
+end
+
+function c710b()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("1,194,344,475D;8,201D;1,194,379,806D:9", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("8201", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(10)
+sCrZ.editAll("6", sCrZ.TYPE_DWORD)
+sCrZ.clearResults()
+sCrZ.toast("༒ Color 710 Blue ༒")
+end
+
+function c710g()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("1,194,344,475D;8,201D;1,194,379,806D:9", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("8201", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(10)
+sCrZ.editAll("7", sCrZ.TYPE_DWORD)
+sCrZ.clearResults()
+sCrZ.toast("༒ Color 710 Green ༒")
+end
+
+function c710y()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("1.3912525e-19F;8200;96", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("8200", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(10)
+sCrZ.editAll("6", sCrZ.TYPE_DWORD)
+sCrZ.toast("༒ Color 710 Yellow ༒")
+sCrZ.clearResults()
+end
+
+function a100m()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_C_DATA)
+sCrZ.setRanges(sCrZ.REGION_C_DATA)
+sCrZ.searchNumber("360;0.0001;1478828288", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("0.0001", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("9999", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Aimbot Super 100M ༒")
+end
+
+function hs()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("9.20161819458;23;25;30.5", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("25;30.5", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(10)
+sCrZ.editAll("300", sCrZ.TYPE_FLOAT)
+sCrZ.toast("༒ Auto Headshot 99% ༒")
+sCrZ.clearResults()
+end
+
+function  lr()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("1.5584387e28", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("1.5584387e28", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("0", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("-1,082,130,432;1,084,227,584;132,608;1,065,353,216;1;0.05000000075F;8.0F;0.10000000149F;0.55000001192F::", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("1", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("0", sCrZ.TYPE_DWORD)
+sCrZ.toast("༒ Less Recoil ༒")
+sCrZ.clearResults()
+end 
+
+function nr()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("1,348,759,109;1953067887;1,634,692,166;1,920,287,604::28", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("1634692166", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(10)
+sCrZ.editAll("1634692266", sCrZ.TYPE_DWORD)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_C_DATA)
+sCrZ.searchNumber("-2.786982e28;-3.7444097e28;-1.1368837e-13::", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("-3.7444097e28", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(1)
+sCrZ.editAll("0", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_C_DATA)
+sCrZ.searchNumber("-2.8111605e28;-3.7444097e28;-1.1144502e28;128.0::", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("-1.1144502e28", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(1)
+sCrZ.editAll("0", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_C_DATA)
+sCrZ.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("-1.1144502e28", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(1)
+sCrZ.editAll("0", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_C_DATA)
+sCrZ.searchNumber("-1.238.624e28;-1.4239333e28;-1.1144502e28;-1.8331474e27;-    7.1608877e24::", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("-1.1144502e28", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(2)
+sCrZ.editAll("90", sCrZ.TYPE_FLOAT)
+sCrZ.toast("༒ No Recoil Lobby ༒")
+end
+
+function atn()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("88.50576019287F;87.27782440186F;-100.91194152832F;1F::13", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("88.50576019287F;87.27782440186F;1F", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(6)
+sCrZ.editAll("1.96875;1.96875;999;1.96875;1.96875;999", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Antena Player ༒")
+end
+
+function sc()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_C_DATA)
+sCrZ.searchNumber("-1.2382424e28;-1.4239333e28;-1.1144502e28;-1.8331474e27;-7.1608877e24::", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("-1.1144502e28", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(2)
+sCrZ.editAll("90", sCrZ.TYPE_FLOAT)
+sCrZ.toast("༒ Small Croshair ༒")
+sCrZ.clearResults()
+end
+
+function agili()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("0.98900693655~0.98900723457;0.14786802232~0.14786840975;1.1920926e-7::9", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResultsCount()
+sCrZ.searchNumber("0.98900693655~0.98900723457", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("16000", sCrZ.TYPE_FLOAT)
+sCrZ.toast("༒ Antena Ghillie ༒")
+sCrZ.clearResults()
+end
+
+function aamo()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("6.95975875854", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(999)
+sCrZ.editAll("88996", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("88996", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("0.88996", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("0.88996", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(30)
+sCrZ.editAll("88996", sCrZ.TYPE_FLOAT)
+sCrZ.toast("༒ Antena Ammo 5.56mm ༒")
+sCrZ.clearResults()
+end
+
+function aitems()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("7.1689529418945", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(3)
+sCrZ.editAll("88996", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("7.4993133544922", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("7.4993133544922", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(1)
+sCrZ.editAll("88996", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("18.46202087402", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(3)
+sCrZ.editAll("88996", sCrZ.TYPE_FLOAT)
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("6.95975875854", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(999)
+sCrZ.editAll("88996", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("88996", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("0.88996", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("0.88996", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(30)
+sCrZ.editAll("88996", sCrZ.TYPE_FLOAT)
+sCrZ.toast("༒ Antena Items Level 3 ༒")
+sCrZ.clearResults()
+end
+
+function am4()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("0.7593~0.7594", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(10)
+sCrZ.editAll("99999", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Antena M416 ༒")
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("0.7636~0.7636", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("99999", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Antena Scar-L ༒")
+sCrZ.clearResults()
+end
+
+function astan()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("7.13142681122;0.53447723389;22.6400718689", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("22.6400718689", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(10)
+sCrZ.editAll("9621", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.clearResults()
+sCrZ.searchNumber("0.53446006775F;-1.68741035461F:501", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("-1.68741035461", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(1995)
+sCrZ.editAll("19995", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.searchNumber("18.38612365723F;0.54026412964F:5", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("18.38612365723F;0.54026412964F:5", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(1995)
+sCrZ.editAll("19995", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Antena Stand ༒")
+end
+
+function aimbotu()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("3.5;1.0;0.5;0.10000000149;200.0::512", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("3.5;1.0;0.5;0.10000000149;200.0::512", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("999999", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("3.5;1;0.5;200;20::", sCrZ.TYPE_FLOAT)
+sCrZ.getResults(200)
+sCrZ.editAll("999999999", sCrZ.TYPE_FLOAT)
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("6.0;2.0;1.0::99", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("1", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("101", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("3.5;1;0.5;200;20::", sCrZ.TYPE_FLOAT)
+sCrZ.getResults(200)
+sCrZ.editAll("999999999", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Aimbot Ultra ༒")
+end
+
+function aimlock()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.clearResults()
+sCrZ.searchNumber("3.5F;1F;1F;1F;200F;20F:512", sCrZ.TYPE_DWORD, false, nil, 0, -1)
+sCrZ.searchNumber("3.5", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(1995)
+sCrZ.editAll("-995", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_CODE_APP)
+sCrZ.searchNumber("0.0001;360.0;0.0;1,478,828,416.0", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("0.0001", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(2)
+sCrZ.editAll("5000", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber(35000, sCrZ.TYPE_FLOAT)
+sCrZ.searchNumber(35000, sCrZ.TYPE_FLOAT)
+sCrZ.getResults(20)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.getResults(20)
+sCrZ.searchNumber("3.5;1;200;20::999", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("3.5;1;200;20", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(300)
+sCrZ.editAll("1.0e20", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("3.5;1;200;20", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(999)
+sCrZ.editAll("-1.0e10", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Aimlock ༒")
+end
+
+function hdamage()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("90.775703430176;0;8;15;16;18;28", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("28", sCrZ.TYPE_FLOAT, false, nil, 0, -1)
+sCrZ.getResults(10)
+sCrZ.editAll("8000", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.searchNumber("0.9378669858F;1.0F;0.61365610361F::55", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("1", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(850)
+sCrZ.editAll("9999", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ High Damage ༒")
+end
+
+function mbullet()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("1F;-8.6457681e12F;15F;28F;16F;26F;8F;18F:512", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("15.0F;28.0F;16.0F;26.0F;8.0F;18.0F:512", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(500)
+sCrZ.editAll("95", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_CODE_APP)
+sCrZ.searchNumber("0.0001;360.0;0.0;1,478,828,416.0", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("0.0001", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(2)
+sCrZ.editAll("999", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.searchNumber("1,048,130,372D;16;12.66705417633;1,119,194,409D;1", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("16", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(3)
+sCrZ.editAll("121", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Magic Bullet 99% ༒")
+end
+
+function norec()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("176293393;8F;9.5F;15F::", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResultsCount()
+sCrZ.searchNumber("176293393", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("176293392", sCrZ.TYPE_DWORD)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("0.2~0.3;53;30;1::", sCrZ.TYPE_FLOAT)
+sCrZ.searchNumber("0.2~0.3;1::", sCrZ.TYPE_FLOAT)
+sCrZ.getResults(200)
+sCrZ.editAll("1.4012985e-45", sCrZ.TYPE_FLOAT)
+sCrZ.toast("༒ No Recoil Game ༒")
+sCrZ.clearResults()
+end
+
+function walls()
+sCrZ.setRanges(sCrZ.REGION_C_BSS)
+sCrZ.clearResults()
+sCrZ.searchNumber("869,711,765D;2;1::55", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("2", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(2)
+sCrZ.editAll("-10", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("90.775703430176;0;8;15;16;18;28", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("28", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(10)
+sCrZ.editAll("1000", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.searchNumber("90.775703430176;8;27.25;18;16", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("18", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("140", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_C_BSS)
+sCrZ.searchNumber("1.0e-7;1.0e-7;2;2;1::512", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("2", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(20)
+sCrZ.editAll("0", sCrZ.TYPE_FLOAT)
+sCrZ.toast("༒ Wallshot ༒")
+sCrZ.clearResults()
+end
+
+
+function esp()
+sCrZ.setRanges(sCrZ.REGION_C_DATA)
+sCrZ.searchNumber("720575962178125824", sCrZ.TYPE_QWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(2)
+sCrZ.editAll("720575961854115840", sCrZ.TYPE_QWORD)
+sCrZ.clearResults()
+sCrZ.toast("༒ ESP Player ༒")
+end
+
+function spall()
+sCrZ.clearResults()
+  sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+  sCrZ.searchNumber("0.76000005007;0.96078431606;1;0.74509805441::", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+  sCrZ.searchNumber("0.74509805441", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+  sCrZ.getResults(9999)
+  sCrZ.editAll("100", sCrZ.TYPE_FLOAT)
+  sCrZ.clearResults()
+  sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+  sCrZ.searchNumber("50;5;0.01", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+  sCrZ.searchNumber("0.01", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+  sCrZ.getResults(280)
+  sCrZ.editAll("-0.23", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Speed All Vehicle ༒")
+end
+
+function spknock()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.searchNumber("0;7.0064923e-45;1;100;1;2,500,000,000.0;0.10000000149;88", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("1", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(100)
+sCrZ.editAll("9999", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Speed Knock ༒")
+end
+
+function w30()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.clearResults()
+sCrZ.searchNumber("220;178;15 ", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("220", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(300)
+sCrZ.editAll("350", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Wide View 30% ༒")
+end
+
+function w60()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.clearResults()
+sCrZ.searchNumber("220;178;15 ", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("220", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(300)
+sCrZ.editAll("438", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Wide View 60% ༒")
+end
+
+function w90()
+sCrZ.setRanges(sCrZ.REGION_ANONYMOUS)
+sCrZ.clearResults()
+sCrZ.searchNumber("220;178;15 ", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("220", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(300)
+sCrZ.editAll("1200", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Wide View 90% ༒")
+end
+
+function asky()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("671236105;1074792717;8200;1194363663;11::17", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("8200", sCrZ.TYPE_DWORD, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(1)
+sCrZ.editAll("3", sCrZ.TYPE_DWORD)
+sCrZ.clearResults()
+sCrZ.toast("༒ Aurora Sky ༒")
+end
+
+function bsky()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.clearResults()
+sCrZ.searchNumber("100F;1F;1,008,981,770D:99", sCrZ.TYPE_FLOAT, false)
+sCrZ.searchNumber("100", sCrZ.TYPE_FLOAT, false)
+sCrZ.getResults(100)
+sCrZ.editAll("-90", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Black Sky ༒")
+end
+
+function fgrem()
+sCrZ.clearResults()
+sCrZ.setRanges(sCrZ.REGION_C_DATA)
+sCrZ.searchNumber("-2.3805679e21;-1.3620439e28;-1.3978205e24:9", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("-1.3620439e28", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(99)
+sCrZ.editAll("0", sCrZ.TYPE_FLOAT)
+sCrZ.toast("༒ Fog Remover ༒")
+sCrZ.clearResults()
+end
+
+function snw()
+sCrZ.setRanges(sCrZ.REGION_BAD)
+sCrZ.searchNumber("3.75000119209;2;2.00000023842;2.00000047684;2.7506108284;3", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.searchNumber("3", sCrZ.TYPE_FLOAT, false, sCrZ.SIGN_EQUAL, 0, -1)
+sCrZ.getResults(30)
+sCrZ.editAll("417", sCrZ.TYPE_FLOAT)
+sCrZ.clearResults()
+sCrZ.toast("༒ Snow Perspective in Miramar ༒")
+end
+
+ss = "◀ﾒ"
+function vip5()
+  if ss == "◀ﾒ" then
+    gg.setVisible(false)
+    gg.searchNumber("-8.795458e22;-3.693674e20;-1.2382424e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("-1.2382424e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(1)
+    gg.editAll("1.2382424e28", gg.TYPE_FLOAT)
+    gg.toast("༒ SUPER SPEED ON ༒")
+    gg.clearResults()
+    ss = "◀ON•"
+  elseif ss == "◀ON•" then
+    gg.setVisible(false)
+    gg.searchNumber("-8.795458e22;-3.693674e20;1.2382424e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("1.2382424e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(1)
+    gg.editAll("-1.2382424e28", gg.TYPE_FLOAT)
+    gg.toast("༒ SUPER SPEED OFF  ༒  ")
+    gg.clearResults()
+    ss = "◀ﾒ"
+  end
+end
+
+sj = "◀ﾒ"
+function vip6()
+  if sj == "◀ﾒ"   then
+    gg.setVisible(false)
+    gg.searchNumber("1;35;443;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(500)
+    gg.editAll("3", gg.TYPE_FLOAT)
+    gg.setVisible(false)
+    gg.searchNumber("3;35;443;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("443", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(500)
+    gg.editAll("2500", gg.TYPE_FLOAT)
+    gg.toast("༒ SUPER JUMP ON ༒ ")
+    gg.clearResults()
+    sj = "◀ON•"
+  elseif sj == "◀ON•" then
+    gg.setVisible(false)
+    gg.searchNumber("3;35;443;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(500)
+    gg.editAll("1", gg.TYPE_FLOAT)
+    gg.setVisible(false)
+    gg.searchNumber("3;35;2500;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(500)
+    gg.editAll("443", gg.TYPE_FLOAT)
+    gg.toast("༒ SUPER JUMP OFF  ༒ ")
+    gg.clearResults()
+    sj = "◀ﾒ"
+  end
+end
+
+
+
+
+
+function logs()
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ProgramBinaryCache")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.13.0.11098_20190617165748_1981158817_cures.ifs.res")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir")
+  os.remove("/data/data/com.tencent.ig/app_appcache")
+  os.remove("/data/data/com.tencent.ig/app_bugly")
+  os.remove("/data/data/com.tencent.ig/app_crashrecord")
+  os.remove("/data/data/com.tencent.ig/cache")
+  os.remove("/data/data/com.tencent.ig/code_cache")
+end
+
+function Exit()
+logs()
+print("    ")
+  print("• ═════ • ═════ • ═════ • ═════ • ═════ •")
+  print("     T H A N K S   FOR   U S E   M Y   S C R I P T")
+  print("               S              C               R                Z  ")
+  print("          D O N T   F O R G E T   Y O U   N O O B ")
+  print("• ═════ • ═════ • ═════ • ═════ • ═════ •")
+  os.exit()
+end
+
+while true do
+if sCrZ.isVisible(true) then
+HambaAllah = 1
+sCrZ.setVisible(false) 
+end
+if HambaAllah == 1 then HOME() end
+end
