@@ -3,6 +3,8 @@
 127.0.0.1 localhost
 ::1 ip6-localhost
 
+127.0.0.1 dlied.qq.com
+127.0.0.1 vmp.qq.com
 127.0.0.1 dlied1.tcdn.qq.com
 127.0.0.1 dlied2.tcdn.qq.com
 127.0.0.1 dlied3.tcdn.qq.com
